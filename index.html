@@ -5,8 +5,9 @@
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
@@ -14,16 +15,16 @@
 </head>
 
 <body>
-
+    
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-            <p class="navbar-text">Jason Flick</p>
+                <p class="snavbar-text">Jason Flick</p>
             </div>
             <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -31,23 +32,34 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>About Me</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="pull-left">
-                    <img id="picture" src="https://pbs.twimg.com/media/BsgYfMQCQAAWVKH.jpg" alt="Bill Murray">
-                </div>
-                <div class="pull-left">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima culpa cum! Corporis ex quae magni esse odit beatae numquam?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea sint aut ex beatae quos odio repellat corporis nobis fugit, culpa sequi commodi explicabo dicta nostrum. Deleniti esse facere illum.</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ipsa aperiam iusto et facilis beatae ducimus reprehenderit eius totam tenetur?</p>
+                <div class="thumbnail">
+                    <div class="page-header">
+                        <h1>About Me</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                                <div class="float-left">
+                                <img src="https://pbs.twimg.com/media/BsgYfMQCQAAWVKH.jpg" id="picture" alt="Bill Murray">
+                                </div>
+                                <div class="float-left">   
+                                    <div class="caption"> 
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima culpa cum! Corporis ex quae magni esse odit beatae numquam?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea sint aut ex beatae quos odio repellat corporis nobis fugit, culpa sequi commodi explicabo dicta nostrum. Deleniti esse facere illum.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ipsa aperiam iusto et facilis beatae ducimus reprehenderit eius totam tenetur?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     
+    <div class="panel panel-default">
+        <div class="panel-footer">Copyright &copy</div>
+    </div>
+
 </body>
 
 </html>
