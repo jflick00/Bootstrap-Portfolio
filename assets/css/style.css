@@ -14,6 +14,9 @@ body {
     background-color: #ffffff;
 }
 
+.page-header {
+    border-bottom: 2px solid #dddddd;
+}
 .navbar-header {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -30,10 +33,12 @@ body {
 
 nav a {
     border-left: 1px solid #cccccc;
+    color: #777777;
 }
 
 .container {
     margin-top: 130px;
+    margin-bottom: 150px;
 }
 
 h1 {
@@ -44,7 +49,6 @@ h1 {
 }
 
 .thumbnail {
-    width: 100%;
     border: solid 3px #dddddd;
     padding: 20px 50px;
 }
@@ -63,17 +67,19 @@ h1 {
 
 .panel-footer {
     background-color: #666666;
+    color: #cccccc;
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    margin-bottom: -21px;
+    margin-left: -1px;
     width: 100%;
+    padding-top: 30px;
     border-top: solid 8px #4aaaa5;
 }
 
 
 /* contact */
 
-.btn btn-success btn-send {
+.btn-send {
     background-color: #4aaaa5;
+    color: #ffffff;
 }
